@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cognition and Intelligence Lab @ASU</title>
+    <link>https://www.CogIntLab-ASU.github.io/authors/001_tcson/</link>
+      <atom:link href="https://www.CogIntLab-ASU.github.io/authors/001_tcson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cognition and Intelligence Lab @ASU</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://www.CogIntLab-ASU.github.io/img/icon-192.png</url>
+      <title>Cognition and Intelligence Lab @ASU</title>
+      <link>https://www.CogIntLab-ASU.github.io/authors/001_tcson/</link>
+    </image>
+    
+  </channel>
+</rss>
