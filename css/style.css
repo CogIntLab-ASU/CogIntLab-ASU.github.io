@@ -417,6 +417,12 @@ p.small {
 	color : black;
 }
 
+.bibbase_paper_author a {
+	color: black;
+	visited: black;
+	link: black;
+}
+
 .paperBlock
 {
    display: inline-block;
