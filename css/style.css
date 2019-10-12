@@ -495,3 +495,9 @@ p.small {
   display: inline-block;
   width: 273px;
 }
+
+span .authorList
+{
+  display: inline-block;
+  width: 273px;
+}
