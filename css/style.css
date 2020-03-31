@@ -318,7 +318,7 @@
 	#header
 	{
 		position: relative;
-		background: #ddd url(../images/byeng.jpg) no-repeat center;
+		background: #ddd url(../images/byard3.jpg) no-repeat center;
 		background-size: cover;
 	}
 
@@ -368,6 +368,10 @@ p.small {
     line-height: 110%;
 }
 
+#bibbase {
+	background-color: white;
+}
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
@@ -406,7 +410,18 @@ p.small {
 		color: rgba(255,255,255,.3);
 	}
 
+.bibbase_paper_author {
+	pointer-events : none;
+	cursor : default;
+	text-decoration : none;
+	color : black;
+}
 
+.bibbase_paper_author a {
+	color: black;
+	visited: black;
+	link: black;
+}
 
 .paperBlock
 {
@@ -476,6 +491,12 @@ p.small {
    border: none;
 }
 .paperBlock .authorList
+{
+  display: inline-block;
+  width: 273px;
+}
+
+span .authorList
 {
   display: inline-block;
   width: 273px;

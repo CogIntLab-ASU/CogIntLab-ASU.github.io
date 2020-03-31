@@ -7,7 +7,7 @@
  -->
 <html>
     <head>
-        <title>Image Science Lab @CMU</title>
+        <title>Cognition & Intelligence Lab @ASU</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -32,9 +32,9 @@
             
             <!-- Logo -->
             <div id="logo">
-            <h1><a href="#">Cognition & Intelligence Lab</a></h1>
-            <span>research</span>
-            </div>
+          <h1><a href="#" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;color:gold;">Cognition & Intelligence Lab</a></h1>
+          <span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;color: lightgoldenrodyellow;">@Arizona State University</span>
+        </div>
             
             <!-- Nav -->
             <nav id="nav">
@@ -56,31 +56,221 @@
             <div id="main">
              <div class="container">            
             
+		     <header>
+          <h2 align="center">Research Narrative</h2><br>
+        </header>
+		     
+Research in our lab and by our lead and his students has evolved over the years.
+                 In the early years, the focus was on two foundational areas of AI: 
+                 (a) Knowledge Representation and Reasoning 
+		     (KR & R) and 
+                 (b) Actions, Agents and Planning (AA&P). 
+                 These are fundamental to AI, as the key aspect 
+		     of intelligence is being able to learn, reason, understand and act purposefully. 
+		     But what does one learn and what does one reason with? The answer is "Knowledge". 
+		     The questions then, are how does one express or represent knowledge and reason with knowledge. 
+		     <br><br>
+
+Thus the research in KR&R was driven by the quest to find appropriate knowledge 
+		     representation formalisms and reasoning mechanisms, and the research in AA&P 
+		     was focused on formulating acting purposefully (agent behavior) and formulating 
+		     various aspects of commonsense reasoning, 
+		     in which <a href="https://www.cs.nmsu.edu/~tson/tutorials/rac-ijcai19.html">reasoning about 
+		     actions plays a central role</a>. Our 2003 book chronicles our work as well as the substantial 
+		     progress made in these two foundational areas. Since then while continuing working on these 
+		     two foundational areas we have broadened our research to Cognition and Human Centered AI. 
+		     <br><br>
+
+In continuation of our work on KR & R we developed KR&R formalisms that combine probability with logic, 
+		     and formulated causal and counterfactual reasoning and naive conditioning using that. 
+		     In continuation of our work on AA&P we formulated the notion of maintainability and develop 
+		     a "specification-to-code" methodology to create policies for maintainability goals and 
+		     for goals in non-deterministic domains. We developed various goal specification languages 
+		     and more recently developed a high level language for the multi-agent domains that allow 
+		     agents to reason about other agent's knowledge or lack of it.
+		     <br><br>
+
+In recent years our focus has been on building integrated AI systems. To that end we have tried to 
+		     bridge the gap between learning and reasoning and have developed systems that combine both. 
+		     We developed an incremental and iterative method for learning rules.
+		     <br><br>
+
+<h3>Cognition:</h3> A crucial aspect of building integrated AI systems is cognition, defined (by Oxford Dictionary) 
+		     as "the mental action or process of acquiring knowledge and understanding through thought, 
+		     experience, and the senses." Our recent research has focused on cognition, especially with 
+		     respect to understanding text and images. While in recent years purely neural 
+		     approaches have been the goto methodology for both, we have focused on combining neural 
+		     (and other machine learning methods) and reasoning with knowledge, and used question 
+		     answering challenges as benchmarks to evaluate our approaches. We have focused on the hard 
+		     challenges where knowledge (including commonsense knowledge) plays an important role.
+		     <br><br>
+
+<h3>Human Centered & Use Inspired AI: </h3> Robots and biological pathways were the initial domains that inspired us. 
+		     Our robots in the AAAI 96 and 97 robot contests combined high level and low level reasoning. 
+		     Since then we have worked on human robot interactions where humans communicate with robots using 
+		     natural language to our recent foray on imitation learning where robots learn from demonstrations 
+		     that include verbal commentary and instructions. 
+		     <br><br>
+
+Biochemical pathways inside cells regulate not just the cells but the organisms as a whole, and reasoning about them 
+		     is needed to understand various phenomena, predict the impact of interventions (such as drugs), 
+		     and design therapies. In addition, in the discovery phase, reasoning is needed to hypothesize 
+		     missing knowledge.  We developed new reasoning about actions methodologies to reason in such domains, 
+		     developed various information extraction (from text) methods for this domain, and combined text extraction 
+		     and reasoning with pharmacokinetic knowledge to predict drug-drug interactions and identify novel 
+		     drug indications. Recently in collaboration with researchers at Mayo we have been working on 
+		     understanding clinical notes and patient databases for various health care applications. 
+		     This includes cohort selection using clinical notes that involves identifying criteria and 
+		     phenotypes such as drug abuse, alcohol abuse, decision making ability, major-diabetes, and 
+		     elevated creatinine. Some of our other ongoing research in this area includes information 
+		     extraction from clinical notes, automated document generation (in particular, survivor care plans), 
+		     social media analysis and evidence synthesis. 
+		     <br><br>
+
+One of our most recent foray in use inspired AI is about vulnerability detection in program code using a 
+		     man-machine collaboration approach.
+		     <br><br><br>
+
+<header>
+          <h2 align="center">Research Highlights</h2><br>
+        </header>
+
+
             
             <div class="row">
             <div class="4u">
-            <font size="5"><strong>Research Area 1</strong></font>
-            <section>   
-                  <a href="" class="image research">
-                  <img src="" ></a>
+            <font size="5"><strong>Cognition (NLP and Vision)</strong></font>
+            <section> <br> <br>  
+               
                   <p class="small" align="justify"><strong>
-                  Paper title</strong><br>
-                  Description</p>
+                  Improving Natural Language Inference</strong><br>
+                  An enhanced data set that distinguishes different entities and different roles.
+            A new NLI model amenable to learning such distinctions.</p>
+		    <a href="https://arxiv.org/abs/1904.09720" class="image research">
+                  <img src="images/nli3.png" style="width:310px"></a>
                   <hr> 
 
-                  <a href="" class="image research">
-                  <img src="" ></a>
+                  
                   <p class="small" align="justify"><strong>
-                  Paper title</strong><br>
-                  Description</p>
+                  Knowledge Hunting & Neural Language Models for WSC</strong><br>
+                  We combine Knowledge Hunting and Neural Language Models to Solve the Winograd Schema Challenge. </p>
+		    <a href="https://www.aclweb.org/anthology/P19-1614.pdf" class="image research">
+                  <img src="images/win1.png" style="width:310px;height:150px"></a>
                   <hr> 
 
-                  <a href="" class="image research">
-                  <img src="" ></a>
+                  
                   <p class="small" align="justify"><strong>
-                  Paper title</strong><br>
-                  Description</p>
+                  Event-Sequences from Image Pairs</strong><br>
+                  A data set of image pairs consisting of block towers. 
+                  A neural model that learns and reasons to generate event sequences from such image pairs. </p>
+		    <a href="https://arxiv.org/pdf/1905.12042.pdf" class="image research">
+                  <img src="images/pubpics/tgokhale_blocks.PNG" style="width:300px"></a>
                   <hr> 
+
+                 
+                  <p class="small" align="justify"><strong>
+                  Integrating Knowledge and Reasoning in Image Understanding</strong><br>
+                  Various approaches to integrate knowledge and reasoning for image understanding. </p>
+		  <a href="https://arxiv.org/pdf/1905.12042.pdf" class="image research">
+                  <img src="images/pubpics/somak_survey.PNG" style="width:300px"></a>
+                  <hr> 
+		    
+		   <p class="small" align="justify"><strong>
+Open Book QA</strong><br>
+Our system for Open Book Question Answering finds relevant knowledge from the open book, analyzes them to figure out what knowledge may be missing, looks for the missing knowledge
+in a large knowledge repository (expressed in natural language) and then uses them to
+answer the question. </p>
+<a href="https://www.public.asu.edu/~cbaral/papers/2019acl-obqa.pdf" class="image research">
+<img src="images/pubpics/pban_careful.PNG" style="width:300px" ></a>
+<hr> 
+
+
+<p class="small" align="justify"><strong>
+QA using ASP and NLI</strong><br>
+Our system uses Answer Set Programming to formalize hard to learn notions often found in questions such as "indicates" and uses NLI (natural language inference) to identify the correct answer in a multiple-choice question answering setting where questions are to be answered with respect to knowledge expressed in textual form. </p>
+<a href="https://www.public.asu.edu/~cbaral/papers/aaai2019.pdf" class="image research">
+<img src="images/asp-nli1.png" style="width:300px" ></a>
+<hr> 
+
+
+<p class="small" align="justify"><strong>
+Solving simple word arithmetic problems</strong><br>
+An approach that mimics humans solving such problems, 
+by finding the appropriate formula to be used and mapping
+the word problem to elements in the formula. Both are 
+done together. </p>
+<a href="https://www.public.asu.edu/~cbaral/papers/acl2016.pdf" class="image research">
+<img src="images/math-word1.png" style="width:300px" ></a>
+<hr> 
+
+<p class="small" align="justify"><strong>
+ASP based ILP to solve BaBI</strong><br>
+Addressing the Facebook BaBI question answering challenge by 
+combining statistical methods with inductive rule learning and 
+reasoning. </p>
+<a href="https://www.public.asu.edu/~cbaral/papers/aaai2016-sub.pdf" class="image research">
+<img src="images/babi1.png" style="width:300px"></a>
+<hr> 
+
+
+<p class="small" align="justify"><strong>
+A Platform to build NL to KR translation systems</strong><br>
+Our NL2KR (Natural Language to Knowledge Representation) platform 
+learns from a training set of English sentences and
+their translation in a desired formal language  and the lambda 
+expression of a small set of words. It creates a translation
+system that can translate English text to the specified formal 
+language.</p>
+<a href="https://www.public.asu.edu/~cbaral/papers/acl2015.pdf" class="image research">
+<img src="images/nl2kr1.png" style="width:300px" ></a>
+<hr> 
+		    
+<p class="small" align="justify"><strong>
+Spatial Knowledge Distillation to aid Visual Reasoning</strong><br>
+A framework that combines recent advances in knowledge distillation (teacher-student
+framework), relational reasoning and probabilistic logical languages to incorporate spatial knowledge in existing neural networks for the task of fact-based Visual Question Answering.</p>
+<a href="https://www.public.asu.edu/~cbaral/papers/2019-wacv.pdf" class="image research">
+<img src="images/pubpics/saha_mask.PNG"  style="width:300px"></a>
+<hr> 
+
+<p class="small" align="justify"><strong>
+Reasoning using Neural architectures for VQA</strong><br>
+We use an explicit reasoning layer on top of a set of penultimate neural network based
+system for doing VQA (visual question answering). The reasoning layer adopts a Probabilistic Soft Logic (PSL) based engine to reason over a basket of inputs: visual relations, the semantic parse of the question, and background ontological knowledge from word2vec and ConceptNet.</p>
+<a href="https://www.public.asu.edu/~cbaral/papers/2018-aaai-psl.pdf" class="image research">
+<img src="images/pubpics/somak_explicit.PNG" style="width:300px" ></a>
+<hr> 
+
+
+<p class="small" align="justify"><strong>
+Image Puzzle Solving using PSL</strong><br>
+We compile a dataset of over 3k image riddles where each riddle consists of 4 images and a ground truth answer. We develop a Probabilistic Reasoning-based approach that combines
+visual detection (including object, activity recognition) and probabilistic commonsense knowledge to answer these riddles with a reasonable accuracy. </p>
+<a href="https://arxiv.org/abs/1611.05896" class="image research">
+<img src="images/pubpics/somak_puzzle.PNG" style="width:300px"></a>
+<hr> 
+
+
+
+<p class="small" align="justify"><strong>
+Image understanding using Scene Description Graph</strong><br>
+Visual recognition techniques and commonsense reasoning is used to create
+Scene Description Graphs (SDGs) of images. An SDG is a  a directed labeled graph, representing objects, actions, regions, as well as
+their attributes, along with inferred concepts and semantic, ontological, and spatial relations. Utility of SDGs is demonstrated with respect to image captioning, image retrieval, and examples in visual question answering.</p>
+<a href="https://www.public.asu.edu/~cbaral/papers/2017CVIU.pdf" class="image research">
+<img src="images/pubpics/somak_cviu.PNG" style="width:300px"></a>
+<hr> 
+
+<p class="small" align="justify"><strong>
+DeepIU: an Architecture for image understanding</strong><br>
+We develop the DeepIU cognitive architecture for understanding images, through which a
+system can recognize the content and the underlying concepts of an image and, reason and answer questions about both using a visual module, a reasoning module, and a commonsense knowledge base. In this architecture, visual data combines with background knowledge and; iterates through visual and reasoning modules to answer questions about an image or to generate a textual description of an image.</p>
+<a href="https://www.public.asu.edu/~cbaral/papers/acs2016.pdf" class="image research">
+<img src="images/pubpics/somak_deepiu.PNG" style="width:300px"></a>
+<hr> 
+		    
+		    
+		    
 
 
             </section>
@@ -88,16 +278,77 @@
             
             
             <div class="4u">
-            <font size="5"><strong>Research Area 2</strong></font>
-            <section>
-                  <a href="" class="image research">
-                  <img src="" ></a>
+            <font size="5"><strong>Human Centered AI</strong></font>
+            <section> <br> <br> 
+                  
                   <p class="small" align="justify"><strong>
-                  Paper title</strong><br>
-                  Description</p>
+                  Imitation Learning: Combining Language, Vision and Demonstration</strong><br>
+                  A neural method for imitation learning of robot policies that combines language,  vision and demonstration.</p>
+		    <a href="" class="image research">
+                  <img src="images/neurips1.png" style="width:300px"></a>
                   <hr>
+		    
+		    
+		    <p class="small" align="justify"><strong>
+Cohort Selection from Clinical Notes</strong><br>
+Automated development and use of special-purpose lexicons for cohort selection from clinical notes</p>
+<a href="https://arxiv.org/pdf/1902.09674.pdf" class="image research">
+<img src="images/cohort1.png" style="width:300px" ></a>
+<hr> 
 
-                  <a href="" class="image research">
+
+<p class="small" align="justify"><strong>
+Discovering drug-drug interactions</strong><br>
+Discovering drug-drug interactions by first using text mining 
+to extract elements of the pharmacokinetic pathway of drugs and
+then using reasoning to figure out possible interference between
+the pharmacokinetic pathways of two drugs. </p>
+<a href="https://www.public.asu.edu/~cbaral/papers/eccb10.pdf" class="image research">
+<img src="images/drug-drug1.png" style="width:300px"></a>
+<hr> 
+
+
+<p class="small" align="justify"><strong>
+Identifying novel drug indications</strong><br>
+Identifying novel drug indications by first extracting from text molecular effects caused by drug-target interactions and links to various diseases and then reasoning with them.</p>
+<a href="https://www.public.asu.edu/~cbaral/papers/plosone2012.pdf" class="image research">
+<img src="images/novel1.png" style="width:300px"></a>
+<hr> 
+		    
+<p class="small" align="justify"><strong>
+Hypothesis Formation in Biochemical Networks</strong><br>
+Reasoning with existing knowledge about a biochemical network and observations to 
+hypothesize possible missing interactions in the network. Validation of the approach using the p53 network. </p>
+<a href="https://www.public.asu.edu/~cbaral/papers/dils05-camera.pdf" class="image research">
+<img src="images/hyp1.png" style="width:300px"></a>
+<hr> 
+
+ 
+<p class="small" align="justify"><strong>
+Representing and reasoning about cell signaling networks</strong><br>
+A knowledge based approach for representing and reasoning about cell signaling networks.
+Reasoning types include prediction effect of interventions, explaining observations and designing and verifying therapies (intervention sequences) with respect to a 
+desired  behavior.</p>
+<a href="https://www.public.asu.edu/~cbaral/papers/ismb04BaralC.pdf" class="image research">
+<img src="images/nfkb1.png" style="width:300px"></a>
+<hr> 
+
+		   <p class="small" align="justify"><strong>
+High Level Language for Human-Robot Interaction</strong><br>
+A High Level Language for Human-Robot Interaction developed using  
+ideas from action execution languages and 
+grounded with respect to simulated human-robot
+interaction transcripts.</p>
+<a href="http://www.cogsys.org/papers/ACS2017/ACS_2017_paper_14_Baral.pdf" class="image research">
+<img src="images/hri1.png" style="width:300px"></a>
+<hr> 
+		    
+		    
+		    
+		    
+		    
+
+<!--                   <a href="" class="image research">
                   <img src="" ></a>
                   <p class="small" align="justify"><strong>
                   Paper title</strong><br>
@@ -109,28 +360,108 @@
                   <p class="small" align="justify"><strong>
                   Paper title</strong><br>
                   Description</p>
-                  <hr> 
+                  <hr>  -->
             </section>
             </div>
 
 
             <div class="4u">
-            <font size="5"><strong>Research Area 3</strong></font>
-            <section>
-                  <a href="" class="image research">
-                  <img src="" ></a>
+            <font size="5"><strong>AI Foundations</strong></font>
+            <section> <br> <br> 
+                  
                   <p class="small" align="justify"><strong>
-                  Paper title</strong><br>
-                  Description</p>
-                  <hr>
+                  Book: Knowledge representation, reasoning and declarative problem solving</strong><br>
+                  A book about various building block results on one of most developed KR language "Answer Set Programming" 
+			  and its use in various reasoning tasks. </p>
+                  <a href="https://www.cambridge.org/core/books/knowledge-representation-reasoning-and-declarative-problem-solving/238B6B820CE6C663C53FED00DC8F7C6F" class="image research">
+                  <img src="images/book1.jpg" style="width:150px"></a><hr>
 
-                  <a href="" class="image research">
-                  <img src="" ></a>
+                  
                   <p class="small" align="justify"><strong>
-                  Paper title</strong><br>
-                  Description</p>
+                  Probabilistic Reasoning with Answer Sets</strong><br>
+                  Foundations of a language that combines probabilistic reasoning with answer set programming.</p>
+		    <a href="https://www.public.asu.edu/~cbaral/papers/plogJune20-08.pdf" class="image research">
+                  <img src="images/plog1.png" style="width:300px"></a>
                   <hr> 
 
+		    <p class="small" align="justify"><strong>
+Using P-log for Causal and Counterfactual Reasoning and Non-Naive Conditioning</strong><br>
+Using the Probabilistic Logic Programming Language P-log for Causal and Counterfactual Reasoning and Non-Naive Conditioning</p>
+<a href="http://www.ijcai.org/papers07/Papers/IJCAI07-037.pdf" class="image research">
+<img src="images/plog2.png" style="width:300px"></a>
+<hr> 
+
+<p class="small" align="justify"><strong>
+Combining Multiple Knowledge Bases</strong><br>
+Formulation of the notion of combining multiple knowledge bases in presence of constraints that the combined knowledge base must adhere.  Knowledge bases that are logic programs, that are first order theories and that are default theories are considered in three separate papers.</p>
+<a href="https://www.public.asu.edu/~cbaral/#kbase" class="image research">
+<img src="images/combinelp1.png" style="width:300px"></a>
+<hr> 
+
+<p class="small" align="justify"><strong>
+Formalizing sensing actions</strong><br>
+Sensing actions, in the purest sense, are actions that do not change the physical world but change the agent's knowledge about the world. We define the notion of a knowledge-state and formalize the transition between knowledge states due to a sensing action. 
+</p>
+<a href="https://www.public.asu.edu/~cbaral/papers/sense1.ps" class="image research">
+<img src="images/sensing1.png" style="width:300px"></a>
+<hr> 
+
+<p class="small" align="justify"><strong>
+Maintenance goals of agents</strong><br>
+Formulate the notion of maintenance goals of agents in a dynamic environment and use a logic programming specification of policies that can satisfy maintenance goals to automatically construct desired policies.
+</p>
+<a href="https://www.public.asu.edu/~cbaral/papers/3416-final.pdf" class="image research">
+<img src="images/maint1.png" style="width:300px"></a>
+<hr> 
+
+
+<p class="small" align="justify"><strong>
+Planning in Non-deterministic Domains</strong><br>
+SAT and Logic Programming specification of the properties of 
+weak, strong, and strong cyclic plans in non-deterministic domains
+leads to automatic construction of polynomial-time algorithms for such plans.
+</p>
+<a href="https://www.public.asu.edu/~cbaral/papers/AAAI051BaralC2.pdf" class="image research">
+<img src="images/ndp1.png" style="width:300px"></a>
+<hr> 
+
+
+<p class="small" align="justify"><strong>
+Elaboration Tolerant Revision of Goals</strong><br>
+Development of non-monotonic temporal logics that facilitate elaboration tolerant revision of goals. </p>
+<a href="https://www.public.asu.edu/~cbaral/papers/AAAI13BaralC1.pdf" class="image research">
+<img src="images/er-ltl1.png" style="width:300px"></a>
+<hr> 
+
+
+<p class="small" align="justify"><strong>
+Modeling multi-agent scenarios involving agents' knowledge about other's knowledge</strong><br>
+Using answer set programming to model multi-agent scenarios involving agents' knowledge about other's knowledge.  We implement a new kind of action, which we call “ask-and truthfully-answer,” and show how this action brings forth a new dimension to the muddy children problem.</p>
+<a href="https://www.public.asu.edu/~cbaral/papers/aamas10.pdf" class="image research">
+<img src="images/aamas1.png" style="width:300px"></a>
+<hr> 
+
+
+<p class="small" align="justify"><strong>
+Multi-Agent Action Modeling using Perspective Fluents</strong><br>
+In a multi-agent setting the effect of actions on agents' knowledge depends on the agents' perspective; whether they are aware of the action, and whether they are close enough to observe the impact of the action. We introduce the notion of perspective fluents
+and formalize (effect of) multi-agent actions using them.
+</p>
+<a href="https://www.public.asu.edu/~cbaral/#multi" class="image research">
+<img src="images/persp1.png" style="width:300px"></a>
+<hr> 
+
+
+
+<p class="small" align="justify"><strong>
+Incremental and Iterative Learning of Answer Set Programs</strong><br>
+Enhancing the traditional inductive logic programming to allow large number of 
+(positive and negative) examples, each with its own background knowledge component.
+Developing an incremental and iterative learning algorithm and system to learn 
+answer set programs from such mutually distinct examples.</p>
+<a href="https://arxiv.org/abs/1802.07966" class="image research">
+<img src="images/ilp1.png" style="width:300px"></a>
+<hr> 
                   
             </section>
             </div>
