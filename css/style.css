@@ -433,6 +433,7 @@ p.small {
    padding-right: 8px;
    text-align: left;
    vertical-align: top;
+   height:300px;
 }
 .paperBlock .paperTitle
 {
