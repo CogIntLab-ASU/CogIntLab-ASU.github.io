@@ -435,6 +435,19 @@ p.small {
    vertical-align: top;
    height:300px;
 }
+
+.paperBlockTitle
+{
+   display: inline-block;
+   font-size: 12px;
+   padding-top: 05px;
+   padding-bottom: 15px;
+   padding-left: 8px;
+   padding-right: 8px;
+   text-align: left;
+   vertical-align: top;
+   height:50px;
+}
 .paperBlock .paperTitle
 {
    display: inline-block;
